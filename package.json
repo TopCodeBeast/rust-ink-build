@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@727-ventures/typechain-compiler": "^1.1.4",
+    "@727-ventures/typechain-polkadot": "^1.1.1",
+    "@727-ventures/typechain-types": "^1.1.2"
+  },
+  "name": "admins",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "typechain-compiler --toolchain nightly-2023-03-05 --nt && yarn generate",
+    "generate": "typechain-polkadot --in artifacts --out types"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
